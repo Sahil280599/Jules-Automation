@@ -1,0 +1,18 @@
+{
+  "validCredentials": {
+    "email": "qa@julesai.com",
+    "password": "QaJULES2023!"
+  },
+  "invalidCredentials": [
+    {
+      "email": "invalid@julesai.com",
+      "password": "wrongpassword",
+      "expectedError": "Invalid credentials"
+    },
+    {
+      "email": "",
+      "password": "",
+      "expectedError": "Email is required"
+    }
+  ]
+} 
